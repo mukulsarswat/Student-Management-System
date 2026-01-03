@@ -1,6 +1,3 @@
-Here’s a **combined README.md** that merges both parts: the general project overview plus the OOP concepts, file handling, and other important notes into one cohesive document.  
-
-```markdown
 # 🎓 Student Management System (C++)
 
 A simple **console-based Student Management System** built in C++ that demonstrates **Object-Oriented Programming (OOP)** concepts and **File Handling**. It allows you to manage student records with features like adding, displaying, searching, editing, and deleting student data. Records are stored persistently in a text file (`Student.txt`).
@@ -84,7 +81,7 @@ The project uses **C++ File I/O** to persist student records:
 ## 📂 Project Structure
 ```
 ├── Student.txt        # File where student records are stored
-├── main.cpp           # Source code of the Student Management System
+├── student_management_system.cpp           # Source code of the Student Management System
 └── README.md          # Documentation
 ```
 
@@ -93,32 +90,34 @@ The project uses **C++ File I/O** to persist student records:
 ## 🖥️ Example Usage
 ### Adding a Student
 ```
-Enter Student Name    : John Doe
-Enter Student rollNo  : 101
-Enter Student branch  : Computer Science
-Enter Student course  : B.Tech
-Enter Student emailId : john.doe@example.com
+Enter Student Name    : Mukul Sharma
+Enter Student rollNo  : Bt22ece134
+Enter Student branch  : ECE
+Enter Student course  : B.Tech.
+Enter Student emailId : bt22ece134@iiitn.ac.in
 ```
 
 ### Displaying Records
 ```
 Record No : 1
-Student Name is    : John Doe
-Student RollNo is  : 101
-Student Branch is  : Computer Science
-Student course is  : B.Tech
-Student emailId is : john.doe@example.com
+
+Student Name is    : Mukul Sharma
+Student RollNo is  : Bt22ece134
+Student Branch is  : ECE
+Student course is  : B.Tech.
+Student emailId is : bt22ece134@iiitn.ac.in
 ---------------------------------
 ```
 
 ### Searching a Student
 ```
-Enter Student rollNo : 101
-Student Name is    : John Doe
-Student RollNo is  : 101
-Student Branch is  : Computer Science
-Student course is  : B.Tech
-Student emailId is : john.doe@example.com
+Enter Student rollNo : Bt22ece134
+
+Student Name is    : Mukul Sharma
+Student RollNo is  : Bt22ece134
+Student Branch is  : ECE
+Student course is  : B.Tech.
+Student emailId is : bt22ece134@iiitn.ac.in
 ---------------------------------
 ```
 
